@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SignupApplication {
 
 	public static void main(String[] args) {
+		System.out.println("start main");
 		SpringApplication.run(SignupApplication.class, args);
+		System.out.println("end main");
 	}
 
 }
